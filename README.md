@@ -1,10 +1,10 @@
-# $RYNA - Memorial Donation Website
+# $AidIryna - Memorial Donation Website
 
 A minimalist and emotionally touching donation website for a memorial memecoin project dedicated to supporting Iryna Zarutska's family.
 
 ## 🌟 Project Overview
 
-**$RYNA** is a charitable memorial token project where 100% of all token sales and donations go directly to the family of Iryna Zarutska, a Ukrainian refugee who tragically lost her life in a stabbing incident in Charlotte, USA.
+**$AidIryna** is a charitable memorial token project where 100% of all token sales and donations go directly to the family of Iryna Zarutska, a Ukrainian refugee who tragically lost her life in a stabbing incident in Charlotte, USA.
 
 ## 🎯 Purpose
 
@@ -71,13 +71,13 @@ This project is ready for deployment on Vercel:
 
 ## 💙 Donation Information
 
-**Solana Wallet Address**: `RYNA9K2mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0`
+**Solana Wallet Address**: `AidIryna9K2mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0`
 
 All donations are publicly verifiable on the Solana blockchain.
 
 ## ⚠️ Disclaimer
 
-$RYNA is a non-profit memorial project. 100% of proceeds go directly to Iryna's family. This is not financial advice. Cryptocurrency investments carry risk. Please donate responsibly.
+$AidIryna is a non-profit memorial project. 100% of proceeds go directly to Iryna's family. This is not financial advice. Cryptocurrency investments carry risk. Please donate responsibly.
 
 ## 🤝 Contributing
 

@@ -106,7 +106,7 @@ export default function AboutIryna() {
                 Our Mission
               </h4>
               <p className="text-blue-100">
-                Through $RYNA, we honor Iryna&apos;s memory and support her family 
+                Through $AidIryna, we honor Iryna&apos;s memory and support her family 
                 with 100% transparent donations on the blockchain.
               </p>
             </div>

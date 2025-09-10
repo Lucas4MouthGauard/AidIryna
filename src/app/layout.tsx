@@ -8,19 +8,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "$RYNA - Remember Iryna, Help Her Family",
+  title: "$AidIryna - Remember Iryna, Help Her Family",
   description: "A memorial memecoin project dedicated to supporting Iryna's family through transparent blockchain donations.",
-  keywords: ["RYNA", "memorial", "donation", "Ukraine", "blockchain", "charity"],
-  authors: [{ name: "RYNA Memorial Project" }],
+  keywords: ["AidIryna", "memorial", "donation", "Ukraine", "blockchain", "charity"],
+  authors: [{ name: "AidIryna Memorial Project" }],
   openGraph: {
-    title: "$RYNA - Remember Iryna, Help Her Family",
+    title: "$AidIryna - Remember Iryna, Help Her Family",
     description: "100% of all token sales and donations go directly to Iryna's loved ones.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "$RYNA - Remember Iryna, Help Her Family",
+    title: "$AidIryna - Remember Iryna, Help Her Family",
     description: "100% of all token sales and donations go directly to Iryna's loved ones.",
   },
 };

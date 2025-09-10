@@ -1,11 +1,34 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Heart, Flame } from 'lucide-react'
+import { Heart, Flame, Twitter } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <>
+      {/* Header Navigation */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-blue-200">
+        <div className="max-w-6xl mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <span className="text-2xl font-bold text-blue-900">$AidIryna</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <a 
+                href="https://x.com/AidIryna" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors duration-200"
+              >
+                <Twitter className="w-5 h-5" />
+                <span className="hidden sm:inline">@AidIryna</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background with candlelight effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-blue-600/10 to-yellow-400/20" />
       
@@ -43,13 +66,13 @@ export default function Hero() {
             <Flame className="w-16 h-16 text-yellow-400" />
           </div>
           <h1 className="text-6xl md:text-8xl font-bold text-blue-900 mb-4">
-            RYNA
+            AidIryna
           </h1>
           <p className="text-xl md:text-2xl text-blue-700 mb-2 font-medium">
             Remember Iryna, Help Her Family
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            All proceeds from $RYNA are donated directly to Iryna&apos;s loved ones.
+            All proceeds from $AidIryna are donated directly to Iryna&apos;s loved ones.
           </p>
         </motion.div>
 
@@ -70,5 +93,6 @@ export default function Hero() {
         </motion.div>
       </div>
     </section>
+    </>
   )
 }

@@ -16,7 +16,7 @@ export default function Footer() {
           >
             <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
               <Heart className="w-6 h-6 text-yellow-400" />
-              $RYNA
+              $AidIryna
             </h3>
             <p className="text-blue-100 mb-4">
               A memorial memecoin project dedicated to supporting Iryna&apos;s family 
@@ -96,11 +96,11 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-blue-100">
               <Shield className="w-4 h-4 text-yellow-400" />
               <span className="text-sm">
-                RYNA is a non-profit memorial project. 100% of proceeds go directly to Iryna&apos;s family.
+                AidIryna is a non-profit memorial project. 100% of proceeds go directly to Iryna&apos;s family.
               </span>
             </div>
             <div className="text-sm text-blue-200">
-              © 2024 $RYNA Memorial Project. Built with ❤️ for Iryna.
+              © 2024 $AidIryna Memorial Project. Built with ❤️ for Iryna.
             </div>
           </div>
         </motion.div>
@@ -113,11 +113,11 @@ export default function Footer() {
           viewport={{ once: true }}
           className="mt-8 p-4 bg-blue-800 rounded-lg"
         >
-          <p className="text-xs text-blue-200 text-center">
-            <strong>Disclaimer:</strong> $RYNA is a charitable memorial token. This is not financial advice. 
-            All donations are voluntary and go directly to Iryna&apos;s family. Cryptocurrency investments 
-            carry risk. Please donate responsibly.
-          </p>
+            <p className="text-xs text-blue-200 text-center">
+              <strong>Disclaimer:</strong> $AidIryna is a charitable memorial token. This is not financial advice. 
+              All donations are voluntary and go directly to Iryna&apos;s family. Cryptocurrency investments 
+              carry risk. Please donate responsibly.
+            </p>
         </motion.div>
       </div>
     </footer>
