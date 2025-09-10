@@ -109,7 +109,7 @@ export default function DonationTracker() {
                 </label>
                 <div className="bg-white p-4 rounded-lg border-2 border-blue-200">
                   <code className="text-sm break-all text-gray-800">
-                    RYNA9K2mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0
+                    AidIryna9K2mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0mN8vQ7xP3wE5rT1yU6iO4aS2dF8gH7jL0
                   </code>
                 </div>
               </div>
@@ -191,9 +191,15 @@ export default function DonationTracker() {
               Join thousands of people around the world who are supporting Iryna&apos;s family 
               through transparent blockchain donations.
             </p>
-            <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-full font-semibold transition-colors duration-200">
-              Donate Now
-            </button>
+            <a
+              href="https://pump.fun/coin/6XGTr5c8CDQxbbMtufD9gYc4fdDahHqb52MhVypdpump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-full font-semibold transition-colors duration-200"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Trade on Pump.fun
+            </a>
           </div>
         </motion.div>
       </div>

@@ -82,10 +82,15 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="space-y-4"
         >
-          <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 mx-auto">
+          <a
+            href="https://pump.fun/coin/6XGTr5c8CDQxbbMtufD9gYc4fdDahHqb52MhVypdpump"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+          >
             <Heart className="w-5 h-5" />
             Donate Now
-          </button>
+          </a>
           
           <p className="text-sm text-gray-500">
             💙 Supporting Ukrainian families through blockchain transparency
